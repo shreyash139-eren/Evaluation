@@ -18,3 +18,6 @@ fetch("https://jsonplaceholder.typicode.com/users")
         console.log("✅ User processing complete")
     },2000)
 })
+.catch((err)=>{
+    console.log(err)
+})
