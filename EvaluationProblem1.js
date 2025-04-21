@@ -1,6 +1,6 @@
 let arr=[
     {
-        name:"ALice",
+        name:"Alice",
         marks:80
     },
     {
@@ -20,7 +20,7 @@ arr.filter((ele)=>{
 })
 let filtered=arr.filter((ele)=>{
     if(ele.marks>=max/2){
-        return ele.normalized=(ele.marks/max*100)
+        return ele.normalized=(ele.marks/max*100).toFixed(2)
     }
 }).filter((ele)=>{
     return delete ele.marks
