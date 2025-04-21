@@ -20,9 +20,9 @@ arr.filter((ele)=>{
 })
 let filtered=arr.filter((ele)=>{
     if(ele.marks>=max/2){
-        return ele.normalized=(ele.marks/max*100).toFixed(2)
+        return ele.normalized=(ele.marks/max*100)
     }
 }).filter((ele)=>{
-    return delete ele.name
+    return delete ele.marks
 })
 console.log(filtered)
