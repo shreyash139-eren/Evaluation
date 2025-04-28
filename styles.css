@@ -1,0 +1,46 @@
+footer{
+    text-align: center;
+    padding: 10px;
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+body{
+    margin: 20px;
+    background: #ffffff;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(138, 138, 227, 1) 18%, rgba(200, 200, 222, 1) 35%, rgba(54, 149, 168, 1) 100%);
+}
+h2{
+    color: #1a1dc3;
+}
+h2::before{
+    content: "$";
+    color: gold;
+}
+h2::after{
+    content: "$";
+    color: gold;
+}
+ol>h4{
+    color: rgb(9, 34, 116);
+    width: 300px;
+}
+ol>h4~i{
+    color: rgb(62, 95, 18);
+}
+ol li{
+    margin: 5px;
+    
+}
+ul li{
+    margin: 5px;
+    color: #161d4f;
+}
+.table{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#table{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#map{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

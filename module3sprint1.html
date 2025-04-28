@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            text-align: center;
+            background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(142, 84, 191, 1) 16%, rgba(154, 82, 182, 1) 72%, rgba(252, 70, 107, 1) 100%);
+            padding: 14px;
+        }
+        a:hover{
+            color: antiquewhite;
+        }
+        a:focus{
+            color: blue;
+            background-color: gold;
+        }
+        a:active{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<header>
+<h1><u>How the Internet Works</u></h1>
+<nav>
+    <div>
+        <a href=""><i>Home</i></a>
+        <a href=""><i>About</i></a>
+        <a href=""><i>LogIn</i></a>
+    </div>
+</nav>
+</header>
+
+<main>
+<section>
+    <h2><u>Client & Server communication</u></h2><br>
+    <p>In the field of software development by Client side we mean the <b>Front-End</b> of the web application, whereas <b>Back-End</b> is the server side of the Web application. Client and Server communicate by verifying the data entered by the user in the Client side, which is Front-End and then the data provided by user is send to the server for verification.</p><br>
+    <p>
+        After recieving the data from the user server verifies the credentials if there is any and if the credentials are correct then it grants access to the user using <i>API's</i>. Some Websites allows you to search for something without any credentials like <u>Google</u>, It transfers the data related to the keywords entered by the user from a vast database to the screen.
+    </p><br>
+    <img src="https://i0.wp.com/javachallengers.com/wp-content/uploads/2023/07/client-server-2.png?fit=1172%2C520&ssl=1" alt="Illustrative diagram showing how the client and server interact." width="400px">
+    <h5>Illustrative diagram showing how the client and server interact.</h5>
+    <br><br>
+    <article>
+       <h2><u>The Journey of a Web Request</u></h2><br>
+       <p> A web requests journey starts with the user providing some credential or data to process in browser and after that the request is sent to the server side of the Web page by browser to be processed according to the request. If the data sent to the server is credentials for log in, then it will verify the username and password from the database and if both matches then only the server will redirect the user to its dashboard or homepage through the browser, and if the request recieved by the server is for some content, then it will show the contents related to the keywords provided by the user from the database using API's. <b>Google</b> is the leading example of search engines.</p>
+       <br>
+       <h5>Web communication:</h5>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/zol6ZAq74uA?si=4r4tjnBR9Diclz-m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       <br><br>
+
+       <ol>
+        <caption><h4>The steps of how a web request works:</h4></caption>
+        <i><li>Client initiates the request</li>
+        <li>DNS Resolution</li>
+        <li>TCP/IP Connection</li>
+        <li>HTTP Request</li>
+        <li>Server Processing</li>
+        <li>HTTP Response</li>
+        <li>Client Rendering</li></i>
+       </ol><br>
+
+       <ul>
+        <h4><b>Key Items:</b></h4>
+        <li>HTTP</li>
+        <li>DNS</li>
+        <li>TCP/IP</li>
+       </ul>
+       <br>
+
+       <table border="" class="table">
+        <caption>
+            <h3><u>Client vs Server</u></h3>
+        </caption>
+        <tr>
+            <th>Function</th>
+            <th>Client</th>
+            <th>Server</th>
+        </tr>
+        <tr>
+            <th>Purpose</th>
+            <td>Requests and receives services from a server.</td>
+            <td>Provides services and resources to clients.</td>
+        </tr>
+        <tr>
+            <th>Initiation</th>
+            <td>Initiates requests to the server (e.g., browsing a website).</td>
+            <td>Responds to client requests and performs necessary actions.</td>
+        </tr>
+        <tr>
+            <th>Resource Access</th>
+            <td>Accesses resources (data, services, etc.) provided by the server.</td>
+            <td>Manages and provides resources to clients.</td>
+        </tr>
+        <tr>
+            <th>Control</th>
+            <td>Typically has less control over server-side operations.</td>
+            <td>Controls the server's resources and services.</td>
+        </tr>
+       </table>
+       <br>
+
+       <table border="" id="table">
+        <caption><h3><u>Static vs Dynamic Websites</u></h3></caption>
+
+        <tr>
+            <th>Feature</th>
+            <th>Static</th>
+            <th>Dynamic</th>
+        </tr>
+        <tr>
+            <th>Content Generation</th>
+            <td>Pre-built, static HTML files</td>
+            <td>Generated on-the-fly based on user requests</td>
+        </tr>
+        <tr>
+            <th>Interactivity</th>
+            <td>Limited interactivity, primarily fixed content</td>
+            <td>Higher interactivity, personalized experiences</td>
+        </tr>
+        <tr>
+            <th>Technologies</th>
+            <td>HTML, CSS, JavaScript</td>
+            <td>HTML, CSS, JavaScript, server-side languages (PHP, Python, etc.)</td>
+        </tr>
+       </table>
+       <br>
+    </article>
+    <br>
+
+    <aside>
+        <h3><i>Quick facts and tips:</i></h3>
+        <ul>
+            <li>The Internet is not owned or controlled by any single entity.</li>
+            <li>
+                Each device on the network has a unique IP address, which helps routers know where to send the packets.</li>
+            <li>Data is broken down into small packets, like pieces of mail, and sent over the network. </li>
+        </ul>
+    </aside>
+    <br><br>
+
+    <h5><u> Major internet data center:</u></h5>
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d571705.378943961!2d-122.04942435614898!3d37.414020302505435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon%20Valley%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1745826404737!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+
+    <form action="">
+        <h5>Answer some MCQ's:</h5>
+       <div>
+        <label for="">1.What is the first step in a web request?
+        </label><br>
+        <input type="radio" class="A">The web server sends the requested webpage. <br>
+        <input type="radio">The web browser establishes a TCP connection. <br>
+        <input type="radio">The web browser resolves the domain name. <br>
+        <input type="radio">The web server receives the request.
+       </div><br>
+       <div>
+        <label for="">2.Which of the following is responsible for handling a web request and returning a web page?</label><br>
+        <input type="radio">Web browser <br>
+        <input type="radio"> DNS server <br>
+        <input type="radio">Web server <br>
+        <input type="radio">ISP (Internet Service Provider) <br>
+       </div><br>
+       <div>
+        <label for="feedback">Feedback:</label><br>
+        <textarea name="" id="feedback"></textarea>
+       </div><br>
+       <button>Submit</button>
+    </form>
+</section>
+</main><br><br>
+<hr>
+<footer>
+    <div>
+        <h4>Visit for More:</h4>
+        <a href="">Wikipedia</a>
+    </div>
+<div>
+ <h4>Follow me on:</h4>
+ <a href="">Twitter</a>
+ <a href="">Github</a>
+</div>
+</footer>
+ 
+</body>
+</html>
+<link rel="stylesheet" href="styles.css">
