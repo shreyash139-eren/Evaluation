@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+background-color: black;
+}
+.container{
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    
+}
+.container>nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav>div{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+    gap: 10px;
+}
+button{
+    padding: 6px 8px;
+    color: aliceblue;
+}
+button:nth-of-type(3){
+    background-color: white;
+    color: black;
+}
