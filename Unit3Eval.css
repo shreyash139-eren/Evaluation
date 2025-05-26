@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#form{
+    background-color: rgb(69, 137, 214);
+    padding:50px;
+    gap: 10px;
+    margin: auto;
+    width: 30%;
+    display: grid;
+    border: 1px solid;
+}
+input,select{
+    padding: 2px;
+    border-radius: 5px;
+    height: 30px;
+}
+h2{
+    text-align: center;
+}
+button{
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+#error{
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+#list{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+p{
+    padding: 10px;
+}
