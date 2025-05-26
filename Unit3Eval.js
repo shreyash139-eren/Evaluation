@@ -58,3 +58,10 @@
             })
         }
         Display()
+        // async function Edit(){
+        //     let res=await fetch("https://evaluation-60755-default-rtdb.asia-southeast1.firebasedatabase.app/students.json")
+        //     let data=await res.json()
+
+        //     let students=Object.entries(data).map(([id,student])=<Add({id, ...student}))
+        //     console.log(students)
+        // }
